@@ -9,6 +9,7 @@ public class Customer {
     void addAddress(String street, String city, int number, int postalCode) {
         Address a = new Address (stree, city, number, postalCode);
         address.add(a);
+
     }
 
     public String getName() {
