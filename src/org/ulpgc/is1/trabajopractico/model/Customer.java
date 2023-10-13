@@ -11,6 +11,10 @@ public class Customer {
         address.add(a);
 
     }
+    public Customer(String name, String surname) {
+        this.name = name;
+        this.surname = surname;
+    }
 
     public String getName() {
         return name;
