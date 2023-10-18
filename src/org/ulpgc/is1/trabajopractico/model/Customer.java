@@ -7,7 +7,7 @@ public class Customer {
     public String name, surname;
 
     void addAddress(String street, String city, int number, int postalCode) {
-        Address a = new Address (stree, city, number, postalCode);
+        Address a = new Address (street, city, number, postalCode);
         address.add(a);
 
     }
